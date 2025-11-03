@@ -1,21 +1,34 @@
 # React Image Uploader Component
 
-A simple and reusable image upload component built with React.
+A simple, clean and reusable image upload component built with **React + TypeScript + Vite**.  
+Supports image preview, size validation and clearing selected images.
+
+✅ **Live Demo:** https://image-uploader-demo.vercel.app  
+✅ **GitHub Repo:** https://github.com/Xuebawugui/image-uploader-demo
+
+---
 
 ## ✨ Features
-- Instant image preview after selecting a file
-- Restricts file type to images only
-- Maximum file size limit (2MB)
-- Displays error messages
-- Clear button to remove selected image
+- ✅ Instant image preview  
+- ✅ Restricts file type to images  
+- ✅ Maximum file size limit (2MB)  
+- ✅ Error message display  
+- ✅ Clear button to remove selected image  
+- ✅ Fully typed with TypeScript  
+- ✅ Lightweight and reusable  
+
+---
 
 ## 🚀 Tech Stack
-- React 18+
-- JavaScript / JSX
+- React 18+ / 19  
+- TypeScript  
+- Vite  
+
+---
 
 ## 📦 Usage
 
-```jsx
+```tsx
 import ImageUploader from './components/ImageUploader';
 
 function App() {
@@ -26,3 +39,4 @@ function App() {
     </div>
   );
 }
+
